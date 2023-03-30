@@ -7,16 +7,14 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-
-    <LinearLayout style="@style/layout_line_colored">
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Hello World!"
-            />
-
-    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:listitem="@layout/recycle_item_custom"
+        android:scrollbars="vertical"
+        >
+    </androidx.recyclerview.widget.RecyclerView>
 
 
 </LinearLayout>
