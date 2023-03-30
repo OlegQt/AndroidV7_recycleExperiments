@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="txt_corner_rad">8dp</dimen>
+    <dimen name="txt_padding_vertical">8dp</dimen>
+    <dimen name="txt_padding_horizontal">8dp</dimen>
+
+</resources>
